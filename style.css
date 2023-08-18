@@ -1,0 +1,149 @@
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-weight: bold;
+}
+
+.navChg{
+    background-color: transparent !important;
+    border-bottom: 1px solid aliceblue;
+}
+.navChg a{
+    color: aliceblue;
+    transition: 0.3s;
+}
+.navChg a:hover{
+    color: #ff6e3a;
+}
+.navbar{
+    transition: 0.5s;
+}
+.ham-icon{
+    background-color: white;
+    opacity: 0.4;
+}
+header{
+    background-image: url("bg.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-align: center;
+}
+header .container>hr{
+    max-width: 50px;
+    border: 2px solid #ff6e3a;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+header .container>h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+}
+header .container{
+    padding: 200px 0px;
+}
+section{
+    padding: 50px 0px;
+}
+.section_ask{
+    background-color: #ff6e3a;
+}
+.section_ask .col-sm-5{
+    background-image: url("https://cdn-front-booklife.fonlego.com/upload_files/fonlego-rwd/club/g0200021%20-c2.jpg");
+    background-size: cover;
+    height: 300px;
+    mix-blend-mode: multiply;
+}
+.section_ask .col-sm-7{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0 20px;
+}
+.section_story img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.section_map{
+    background-color: #222;
+}
+.cross_loc{
+    position: relative;
+}
+.section_map .cross{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 28%;
+    top: 35%;
+}
+.section_map .col-sm-5{
+    background-image: url("map2.jpg");
+    background-size: cover;
+    height: 350px;  
+}
+.section_map .col-sm-7{
+    color: aliceblue;
+    text-align: center;
+}
+.section_map i{
+    font-size: 40px;
+}
+.section_map .space{
+   margin: 40px 0px;
+} 
+.section_now img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section_now i{
+    font-size: 30px;
+}
+
+.padding_wrap{
+    padding: 10px 0px;
+} 
+footer{
+    background-image: url("bg.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-align: center;
+}
+footer hr{
+    max-width: 50px;
+    border: 2px solid #ff6e3a;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+footer .container{
+    padding: 60px 0px;
+}
+footer input{
+    background-color: transparent !important;
+    max-width: 330px; 
+    margin-left: auto;
+    margin-right: auto;
+} 
+.form-control{
+    color: #e1e1e1 !important;
+}
+
+::placeholder { /* CSS 3 標準 */
+    color: #e1e1e1 !important;
+}
+::-webkit-input-placeholder { /* Chrome, Safari */
+    color: #e1e1e1 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #e1e1e1 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #e1e1e1 !important;
+    opacity: 1;
+}
+
